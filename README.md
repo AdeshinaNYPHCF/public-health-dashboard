@@ -226,7 +226,15 @@ Development of a surveillance dashboard integrating
 
 • climate indicators
 • animal rabies monitoring data
+### Rabies and Climate Surveillance Dashboard Workflow
 
+This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; *referral records, specimen testing results, and environmental indicators into structured surveillance variables including referral date, animal type, ownership status, specimen submission, positivity status, and geographic ZIP code*. 
+
+The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**.
+** Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events**
+**Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes**
+**The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis**
+• This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies.
 
 *Output* The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.**
 
@@ -306,7 +314,8 @@ GitHub Pages
 
 # Author
 
-Adeshina NPHCF
+Adeshina Bello
+NYPHCF 
 
 
 # License
