@@ -1,6 +1,5 @@
-# public-health-dashboard
-Poster Supplementary, NYSPHC Summit 2026
-
+# Poster Supplementary, NYSPHC Summit 2026
+## Public-Health-Climate-Health Portfolio
 
 A public health analytics portfolio focused on **climate hazards, environmental exposure, and population health vulnerability assessment**.
 
@@ -29,7 +28,7 @@ Key objectives include
 
 # Major Analytical Projects
 
-## 1. Air Quality and Attributable Health Burden Evaluation
+# 1. Air Quality and Attributable Health Burden Evaluation
 
 Long term Air Quality Index trend analysis from **1980 to 2025** examining potential associations between environmental exposure and respiratory health burden.
 
@@ -44,7 +43,7 @@ Key components include
 
 ---
 
-## 2. Climate Health Vulnerability Dashboard
+# 2. Climate Health Vulnerability Dashboard
 
 Dashboard project examining **climate health vulnerability across census tracts**.
 
@@ -64,7 +63,7 @@ The goal is to identify communities facing elevated climate risk and support **t
 
 
 
-## 3. Vector Surveillance and Climate Threshold Analysis
+# 3. Vector Surveillance and Climate Threshold Analysis
 
 Seasonal surveillance analytics examining **temperature thresholds and vector activity patterns in Monroe County**.
 
@@ -78,7 +77,7 @@ Results support environmental health monitoring and **vector prevention planning
 
 ---
 
-#### 4. Heatwave Climate Surveillance Analysis Workflow
+# 4. Heatwave Climate Surveillance Analysis Workflow
 
 This analysis examines seasonal heat exposure patterns using temperature, relative humidity, and dew point observations. The goal is to identify periods where environmental conditions meet thresholds associated with elevated heat related health risks.
 
@@ -88,11 +87,11 @@ The workflow applies reproducible data processing and exploratory data analysis 
 
 Climate observations containing daily meteorological measurements. Variables used in the analysis include *1996-2024*
 
-Date
-Year
-Month
-Temperature
-Relative Humidity
+Date,
+Year,
+Month,
+Temperature,
+Relative Humidity,
 Dew Point
 
 
@@ -108,9 +107,9 @@ data <- data %>%
 The analysis focuses on the primary heat season in the monroe county.
 
 Months included in the analysis
-May
-June
-July
+May,
+June,
+July,
 August
 
 Heatwave days were defined using a combined temperature and humidity risk index.
@@ -119,10 +118,10 @@ The threshold conditions reflect combinations of high temperature and elevated r
 
 Applied thresholds based on EPA/CDA charts;
 
-Temperature 86°F with relative humidity ≥ 90 percent
-Temperature 88°F with relative humidity ≥ 80 percent
-Temperature 90°F with relative humidity ≥ 70 percent
-Temperature 92°F with relative humidity ≥ 60 percent
+*Temperature 86°F with relative humidity ≥ 90 percent*
+*Temperature 88°F with relative humidity ≥ 80 percent*
+*Temperature 90°F with relative humidity ≥ 70 percent*
+*Temperature 92°F with relative humidity ≥ 60 percent*
 
 These thresholds approximate environmental conditions associated with dangerous heat exposure.
 
@@ -143,7 +142,7 @@ This step isolates high risk environmental exposure days relevant for heat surve
 
 Heatwave conditions were summarized by year and month to identify seasonal patterns.
 
-## Key metrics calculated
+### Key metrics calculated
 
 Number of heatwave days
 Average relative humidity during heatwave events
@@ -201,7 +200,7 @@ Time series plots of monthly humidity patterns
 • cooling center resources managements 
 • staffing decisions
 • early season heat alerts
-# Final output-  **county heat risk communication**
+## Final output-  **county heat risk communication**
 
 ### Public Health Application
 This analysis provides a framework for evaluating heat exposure patterns that may inform
@@ -221,7 +220,7 @@ ggplot2 visualization
 data.table for sequence detection
 
 
-## 5 Rabies and Climate Surveillance Dashboard
+# 5 Rabies and Climate Surveillance Dashboard
 
 Development of a surveillance dashboard integrating
 
@@ -292,8 +291,6 @@ Analytical methods used across projects include
 • environmental health interpretation of exposure indicators.
 
 Analysis workflows were implemented primarily in **R using reproducible scripts and visualization tools.**
-
----
 
 
 # Tools and Technologies
