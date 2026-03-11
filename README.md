@@ -44,23 +44,69 @@ Key components include
 ---
 
 
-
-
 # 2. Climate Health Vulnerability Dashboard
 
-Dashboard project examining **climate health vulnerability across census tracts**.
+Dashboard project examining **climate health vulnerability across census tracts**. The dashboard clusters geographic areas using integrated environmental indicators including;
 
-The dashboard clusters geographic areas using integrated environmental indicators including
-
-• outdoor mobility patterns
-• climate exposure indicators
-• environmental health vulnerability metrics
+• outdoor mobility patterns.
+• climate exposure indicators.
+• environmental health vulnerability metrics.
 
 The goal is to identify communities facing elevated climate risk and support **targeted public health planning and resource allocation**.
 
+### Objective:
+Assess and rank climate- and mobility-related vulnerability across census tracts using integrated indicators to identify spatial disparities and high-risk communities.
+
+### Workflow:
+Data cleaning, conduct exploratory analysis with EDA heatmaps, correlation matrices, and pair plots → compute a composite Average Risk index using row means across selected indicators → rank tracts and identify the Top N most vulnerable census tracts → apply K means clustering to group tracts with similar vulnerability profiles → generate interactive heatmaps, PCA cluster plots, and ranked tables within a Shiny dashboard.
+
+
+### Variables Evaluated:
+Census tract numeric indicators representing environmental exposure, outdoor mobility, socioeconomic vulnerability, and climate-related risk metrics, derived from integrated datasets.
+
+#### Population Structure and Demographic Composition
+• Pop_Change_2010_2020_Percent
+• Children_0_4_Percent
+• Seniors_65_Plus_Percent
+• Working_Age_18_64_Percent
+
+#### Socioeconomic Vulnerability
+• Pop_Below_200_Poverty_Level_Percent
+• Children_in_Poverty_0_17_Percent
+• GINI_Index (income inequality)
+• Uninsured_Pop_Percent
+
+#### Mobility and Transportation Access
+• Workers_Walking_Biking_Percent
+• Workers_Using_Public_Transit_Percent
+• Occupied_Housing_Units_with_No_Vehicles_Percent_of_Units
+• Occupied_Housing_No_Vehicles_Percent
+
+#### Housing and Environmental Living Conditions
+• Overcrowded_Housing_Percent
+• Limited_English_Proficiency_Percent
+
+#### Health and Population Vulnerability Indicators
+• Disabled_Pop_Percent
+• Life_Expectancy_At_Birth
+
+#### Race and Ethnic Composition Indicators
+• Black_Percent
+• White_NonHispanic_Percent
+
+### Methodology and Statistical Analysis:
+Exploratory data analysis using scaled heatmaps, correlation matrices, vulnerability ranking using row mean composite risk scores, principal component analysis for dimensionality reduction, and K-means clustering to identify tract-level vulnerability groups.
+
+**Outputs**:
+Interactive vulnerability heatmaps, tract comparison visuals, ranked tables, PCA cluster plots, and cluster summary statistics.
+
+### Public Health Importance:
+The analysis identifies geographic inequality in climate-related health vulnerability, enabling targeted intervention, climate adaptation planning, and resource prioritization for high-risk communities at the census tract level.
+
+
+
+
 ---
-
-
 
 # 3. Vector Surveillance and Climate Threshold Analysis
 
@@ -75,8 +121,7 @@ This analysis evaluates relationships between climate conditions and the seasona
 ### Output Results support environmental health monitoring and vector prevention planning strategies.(See Supplementary.pdf)###
 
 ---
-
-
+```
 
 # 4. Heatwave Climate Surveillance Analysis Workflow
 
@@ -221,9 +266,7 @@ ggplot2 visualization
 data.table for sequence detection
 
 ---
-
-
-
+```
 
 # 5. Rabies and Climate Surveillance Dashboard
 
@@ -249,22 +292,21 @@ The dashboard evaluates **temporal trends in rabies referrals, spatial concentra
 
 ---
 
-
+```
 
 # 6. GIS and Spatial Analysis Contributions
 
 Environmental health GIS mapping projects include
 
-Development of **community resource maps** identifying
+## a. Development of **community resources map** identifying ##
 
 • food pantries
 • shelters
 • low income clinics
 • Addresses, contact phone number and list of services provided
+• using ROC Health Data tools to improve access to essential services.
 
-using ROC Health Data tools to improve access to essential services.
-
-Creation of **flood risk overlays** using 1 percent and 0.2 percent floodplain boundaries intersected with **Disadvantaged Communities indicators** to support equity focused climate planning.
+## b.  Creation of **flood risk overlays** using 1 percent and 0.2 percent floodplain boundaries intersected with **Disadvantaged Communities indicators** to support equity focused climate planning.##
 
 
 # Repository Structure
@@ -297,7 +339,7 @@ Data used in this portfolio originate from publicly available environmental and 
 
 These datasets are used for analytical demonstration and environmental health research interpretation.
 
----
+--- 
 
 # Methods
 
