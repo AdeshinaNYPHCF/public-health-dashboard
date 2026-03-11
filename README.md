@@ -129,7 +129,9 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
  *risk communication
  
  ## Final output- **county heat risk communication** ### 
- Public Health Application This analysis provides a framework for evaluating heat exposure patterns that may inform Extreme heat early warning systems Heat health risk communication strategies Cooling center planning and emergency preparedness Climate informed public health surveillance programs The analytical workflow demonstrates how meteorological data can be translated into operational indicators supporting climate and health adaptation planning.
+ Public Health Application This analysis provides a framework for evaluating heat exposure patterns that may inform Extreme heat early warning systems,  Heat health risk communication, cooling center planning and preparedness for priority months, weeks, days patterns identified in historical data.
+ 
+ * The analytical workflow demonstrates how meteorological data can be translated into operational indicators supporting climate and health adaptation planning.
 
 **Tools Used:** R, tidyverse, ggplot2, data.table
 
@@ -139,9 +141,13 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
 ### 5. Rabies and Climate Surveillance Dashboard
 Development of a surveillance dashboard integrating climate indicators and animal rabies monitoring data. ### Rabies and Climate Surveillance Dashboard Workflow This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; 
 
-•Referral records, specimen testing results, and environmental indicators into structured surveillance variables. •Including referral date, •animal type, •ownership status, •specimen submission, •positivity status, and •geographic ZIP code. 
+* •Referral records, specimen testing results, and environmental indicators into structured surveillance variables. •Including referral date, •animal type, •ownership status, •specimen submission, •positivity status, and •geographic ZIP code. 
 
-* The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**. •Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events. •Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes. 
+* The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**. 
+
+* Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events.
+
+* Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes. 
 
 * The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis. 
 
