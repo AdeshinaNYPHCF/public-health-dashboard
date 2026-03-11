@@ -43,6 +43,9 @@ Key components include
 
 ---
 
+
+
+
 # 2. Climate Health Vulnerability Dashboard
 
 Dashboard project examining **climate health vulnerability across census tracts**.
@@ -59,10 +62,6 @@ The goal is to identify communities facing elevated climate risk and support **t
 
 
 
-
-
-
-
 # 3. Vector Surveillance and Climate Threshold Analysis
 
 Seasonal surveillance analytics examining **temperature thresholds and vector activity patterns in Monroe County**.
@@ -73,9 +72,11 @@ This analysis evaluates relationships between climate conditions and the seasona
 • ticks
 • vector associated disease risks
 
-**Output Results support environmental health monitoring and **vector prevention planning strategies.**
-***(See Supplementary.pdf)**
+### Output Results support environmental health monitoring and vector prevention planning strategies.(See Supplementary.pdf)###
+
 ---
+
+
 
 # 4. Heatwave Climate Surveillance Analysis Workflow
 
@@ -219,6 +220,10 @@ tidyverse data processing libraries
 ggplot2 visualization
 data.table for sequence detection
 
+---
+
+
+
 
 # 5. Rabies and Climate Surveillance Dashboard
 
@@ -228,7 +233,7 @@ Development of a surveillance dashboard integrating climate indicators and anima
 This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; 
 
 •Referral records, specimen testing results, and environmental indicators into structured surveillance variables.
-•Including referral date, animal type, ownership status, specimen submission, positivity status, and geographic ZIP code. 
+•Including referral date, •animal type, •ownership status, •specimen submission, •positivity status, and •geographic ZIP code. 
 
 The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**.
 
@@ -241,6 +246,8 @@ The dashboard evaluates **temporal trends in rabies referrals, spatial concentra
 • This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies.
 
 *Output* The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.**
+
+---
 
 
 
