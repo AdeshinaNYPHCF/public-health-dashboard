@@ -93,14 +93,21 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
 * Standardize date formats for time-based analysis
 * Focus on heat season: May–August
 * Identify heatwave days using thresholds combining temperature and humidity:
-    Heatwave days were defined using a combined temperature and humidity risk index. The threshold conditions reflect combinations of high temperature and elevated relative humidity that increase heat stress risk. Applied thresholds based on EPA/CDA charts;
+    dentifying Heatwave Days Using Combined Temperature and Humidity Thresholds
 
-| Temperature | Relative Humidity |
-| ----------- | ----------------- |
-| 86°F        | ≥ 90%             |
-| 88°F        | ≥ 80%             |
-| 90°F        | ≥ 70%             |
-| 92°F        | ≥ 60%             |
+**Heatwave days were defined using a combined temperature and relative humidity risk index. Heat stress risk increases when high temperatures occur alongside elevated humidity because atmospheric moisture reduces evaporative cooling from sweating. This interaction increases the perceived temperature, commonly expressed as the Heat Index.**
+
+**To capture these conditions, temperature–humidity combinations were evaluated using guidance from the NOAA Heat Index framework, which categorizes exposure conditions based on potential health risk.**
+
+**The analysis focuses on days where daily maximum temperature reaches at least 88°F, since this level begins to enter heat index ranges associated with elevated heat stress under moderate to high humidity conditions.**
+
+| Temperature | Relative Humidity | Approx. Heat Index Range | NOAA Risk Category | Health Risk Description                                                                   |
+| ----------- | ----------------- | ------------------------ | ------------------ | ----------------------------------------------------------------------------------------- |
+| 86°F        | ≥ 90%             | ~100–105°F               | Extreme Caution    | Heat cramps and heat exhaustion possible with prolonged exposure                          |
+| 88°F        | ≥ 80%             | ~104–108°F               | Danger             | Heat cramps and heat exhaustion likely; prolonged exposure may increase heat illness risk |
+| 90°F        | ≥ 70%             | ~105–110°F               | Danger             | Heat exhaustion likely with extended exposure and physical activity                       |
+| 92°F        | ≥ 60%             | ~106–112°F               | Danger             | High risk of heat exhaustion; vulnerable populations face elevated heat stress            |
+
 
 * These thresholds approximate environmental conditions associated with dangerous heat exposure. Records meeting these conditions were flagged as heatwave days extracted from daily Temperature 1996-2024. 
 * The resulting filtered dataset represents days where meteorological conditions may pose elevated heat related health risks.
@@ -130,17 +137,25 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
 
 
 ### 5. Rabies and Climate Surveillance Dashboard
-# 5. Rabies and Climate Surveillance Dashboard 
-Development of a surveillance dashboard integrating climate indicators and animal rabies monitoring data. ### Rabies and Climate Surveillance Dashboard Workflow This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; •Referral records, specimen testing results, and environmental indicators into structured surveillance variables. •Including referral date, •animal type, •ownership status, •specimen submission, •positivity status, and •geographic ZIP code. The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**. •Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events. •Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes. • The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis. • This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies. 
+Development of a surveillance dashboard integrating climate indicators and animal rabies monitoring data. ### Rabies and Climate Surveillance Dashboard Workflow This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; 
 
-*Output* The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.** ---
----
+•Referral records, specimen testing results, and environmental indicators into structured surveillance variables. •Including referral date, •animal type, •ownership status, •specimen submission, •positivity status, and •geographic ZIP code. 
 
-# 6. GIS and Spatial Analysis Contributions
+* The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**. •Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events. •Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes. 
 
-**a. Community Resources Map:** Identifies food pantries, shelters, low-income clinics with addresses, contacts, and services
+* The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis. 
 
-**b. Flood Risk Overlays:** Combines 1% and 0.2% floodplain boundaries with **Disadvantaged Community indicators** to support equity-focused climate planning
+* This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies. 
+
+**Output** The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.** 
+
+----
+
+### 6. GIS and Spatial Contributions
+
+**a. Community Resources Map:** Identifies food pantries, shelters, low-income clinics with addresses, contacts, and services.
+
+**b. Flood Risk Overlays:** Combines 1% and 0.2% floodplain boundaries with **Disadvantaged Community indicators** to support equity-focused climate planning.
 
 ---
 
