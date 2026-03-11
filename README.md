@@ -30,7 +30,7 @@ Key objectives include
 
 # 1. Air Quality and Attributable Health Burden Evaluation
 
-Long term Air Quality Index trend analysis from **1980 to 2025** examining potential associations between environmental exposure and respiratory health burden.
+Long term Air Quality Index trend analysis from **1980 to 2025** examining potential associations between environmental exposure and respiratory health burden(See pdf).
 
 Key components include
 
@@ -73,8 +73,8 @@ This analysis evaluates relationships between climate conditions and the seasona
 • ticks
 • vector associated disease risks
 
-Results support environmental health monitoring and **vector prevention planning strategies.**
-
+**Output Results support environmental health monitoring and **vector prevention planning strategies.**
+***(See Supplementary.pdf)**
 ---
 
 # 4. Heatwave Climate Surveillance Analysis Workflow
@@ -220,27 +220,31 @@ ggplot2 visualization
 data.table for sequence detection
 
 
-# 5 Rabies and Climate Surveillance Dashboard
+# 5. Rabies and Climate Surveillance Dashboard
 
-Development of a surveillance dashboard integrating
+Development of a surveillance dashboard integrating climate indicators and animal rabies monitoring data.
 
-• climate indicators
-• animal rabies monitoring data
 ### Rabies and Climate Surveillance Dashboard Workflow
+This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; 
 
-This analysis integrates rabies surveillance records with seasonal temperature patterns to support climate informed zoonotic disease monitoring in Monroe County, NY. Data cleaning and standardization convert variables ; *referral records, specimen testing results, and environmental indicators into structured surveillance variables including referral date, animal type, ownership status, specimen submission, positivity status, and geographic ZIP code*. 
+•Referral records, specimen testing results, and environmental indicators into structured surveillance variables.
+•Including referral date, animal type, ownership status, specimen submission, positivity status, and geographic ZIP code. 
 
 The dashboard evaluates **temporal trends in rabies referrals, spatial concentration of exposures, animal species distribution, specimen positivity rates, and ownership related risk patterns**.
-** Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events**
-**Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes**
-**The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis**
+
+•Monthly referral counts are compared with maximum temperature trends to explore potential climate influences on animal activity and exposure events.
+
+•Interactive visualizations display key indicators including top referral ZIP codes, animal type distribution, positivity by animal ownership, and specimen testing outcomes.
+
+• The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis.
+
 • This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies.
 
 *Output* The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.**
 
 
 
-# 6 GIS and Spatial Analysis Contributions
+# 6. GIS and Spatial Analysis Contributions
 
 Environmental health GIS mapping projects include
 
