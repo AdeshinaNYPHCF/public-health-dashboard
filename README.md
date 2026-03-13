@@ -57,13 +57,27 @@ Assess and rank climate- and mobility-related vulnerability across census tracts
 5. Generate interactive heatmaps, PCA cluster plots, and ranked tables in a Shiny dashboard
 
 **Variables Evaluated:**
+Census_Tract	GeoID	City_Town	PM2_5 	Days_Above_90_Degrees_2050	CHD_adults_pct	COPD_ED_Rate	Uninsured_Pop	workers_Pub_Transit	Workers_Walking_Biking 	Housing_No_Vehicles	Workers_Traveling _Public_TP	Pop_Limited_Eng	Disabled_Pct	Pop_Age65plus	Pop_Age0_4	Disadvantaged
 
-* **Population Structure and Demographics:**  `Children_0_4_Percent`, `Seniors_65_Plus_Percent`, `Working_Age_18_64_Percent`
-* **Socioeconomic Vulnerability:** `Pop_Below_200_Poverty_Level_Percent`, `Children_in_Poverty_0_17_Percent`, `GINI_Index`, `Uninsured_Pop_Percent`
-* **Mobility and Transportation Access:** `Workers_Walking_Biking_Percent`, `Workers_Using_Public_Transit_Percent`, `Occupied_Housing_Units_with_No_Vehicles_Percent`
-* **Housing and Living Conditions:** `Overcrowded_Housing_Percent`, `Limited_English_Proficiency_Percent`
-* **Health and Vulnerability:** `Disabled_Pop_Percent`, `Life_Expectancy_At_Birth`
-* **Race and Ethnic Composition:** `Black_Percent`, `White_NonHispanic_Percent`
+
+* **Geographic Identifiers:** Census_Tract, GeoID, City_Town
+
+* **Geographic Identifiers:** Census_Tract, GeoID, City_Town
+
+* **Environmental Exposure and Climate Risk:** PM2_5, Days_Above_90_Degrees_2050
+
+* **Health Outcomes and Disease Burden:** CHD_adults_pct, COPD_ED_Rate
+
+* **Population Structure and Demographics:** Pop_Age0_4, Pop_Age65plus, Disabled_Pct
+
+* **Socioeconomic Vulnerability:** Uninsured_Pop, Disadvantaged community(Y/N)
+
+* **Mobility and Transportation Access:** workers_Pub_Transit, Workers_Walking_Biking, Workers_Traveling_Public_TP
+
+* **Housing and Transportation Constraints:** Housing_No_Vehicles
+
+* **Language and Social Barriers:** Pop_Limited_Eng
+
 
 **Methodology:** Scaled heatmaps, correlation matrices, vulnerability ranking via composite risk scores, K-means clustering.
 
@@ -121,7 +135,7 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
 * For each year and month, the length of continuous heatwave streaks was calculated. Only streaks longer than two days were retained. 
 
 **Public Health Applications:**
- *These *outputs* support environmental health surveillance and help identify periority Days/weeks/months periods of elevated heat risk sing historical temperature data patterns to guide; 
+ *These *outputs* support environmental health surveillance and help identify periority Days/weeks/months periods of elevated heat risk identified in historical temperature data patterns to guide; 
  
  *cooling center resources managements 
  *staffing decisions  
@@ -206,6 +220,7 @@ Workflows implemented primarily in **R using reproducible scripts and visualizat
 ## Tools and Technologies
 
 * R & RStudio
+* Advanced Excel tools(VBA, Pivot table & Others)
 * GIS spatial analysis tools
 * HTML & CSS
 * Git & GitHub
