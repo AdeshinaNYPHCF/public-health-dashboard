@@ -38,7 +38,7 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 * Interpretation of climate–air pollution interactions
 
 **Outputs:** Analytical reports and visualizations supporting environmental health assessment
-
+https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf
 ---
 
 ### 2. Climate Health Vulnerability Dashboard
@@ -67,10 +67,10 @@ Assess and rank climate- and mobility-related vulnerability across census tracts
 `PM2_5`, `Days_Above_90_Degrees_2050`
 
 * **Health Outcomes and Disease Burden:**  
-`CHD_adults_pct`, `COPD_ED_Rate`
+`CHD_adults`, `COPD_ED_Rate`
 
 * **Population Structure and Demographics:**  
-`Pop_Age0_4`, `Pop_Age65plus`, `Disabled_Pct`
+`Pop_Age0_4`, `Pop_Age65plus`, `Disabled`
 
 * **Socioeconomic Vulnerability:**  
 `Uninsured_Pop`, `Disadvantaged` *(Disadvantaged Community: Yes or No)*
@@ -86,7 +86,8 @@ Assess and rank climate- and mobility-related vulnerability across census tracts
 
 **Methodology:** Scaled heatmaps, correlation matrices, vulnerability ranking via composite risk scores, K-means clustering.
 
-**Outputs:** Interactive vulnerability heatmaps, ranked tables, cluster plots, cluster summaries
+**Outputs:** Interactive vulnerability heatmaps, ranked tables, cluster plots, cluster summaries-
+**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard)**
 
 **Public Health Impact:** Identifies geographic inequality, enabling targeted interventions, climate adaptation planning, and resource prioritization
 
@@ -152,7 +153,7 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
  
  * The analytical workflow demonstrates how meteorological data can be translated into operational indicators supporting climate and health adaptation planning.
 
-**Tools Used:** R, tidyverse, ggplot2, data.table
+**Tools Used:** SAS, ggplot2, data.table-**[View Data Communication](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
 
 ---
 
@@ -173,7 +174,7 @@ Development of a surveillance dashboard integrating climate indicators and anima
 * This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies. 
 
 **Output** The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.** 
-
+**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
 ----
 
 ### 6. GIS and Spatial Contributions
