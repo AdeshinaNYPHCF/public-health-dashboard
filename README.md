@@ -38,7 +38,8 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 * Interpretation of climate–air pollution interactions
 
 **Outputs:** Analytical reports and visualizations supporting environmental health assessment
-https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf
+**[View Data Analysis Report](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf)**
+
 ---
 
 ### 2. Climate Health Vulnerability Dashboard
@@ -153,7 +154,7 @@ Examines seasonal heat exposure patterns using **temperature, relative humidity,
  
  * The analytical workflow demonstrates how meteorological data can be translated into operational indicators supporting climate and health adaptation planning.
 
-**Tools Used:** SAS, ggplot2, data.table-**[View Data Communication](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
+**Tools Used:** SAS, ggplot2, data.table-**[View Data Communication](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/Monroe%20County%20heat-risk%20communication%20using%20historical%20data.pdf)**
 
 ---
 
