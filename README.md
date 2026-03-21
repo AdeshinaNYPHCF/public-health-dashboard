@@ -37,7 +37,7 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 * Discussion of environmental exposure and asthma burden
 * Interpretation of climate–air pollution interactions
 
-**Outputs:** Analytical reports and visualizations supporting environmental health assessment
+**Outputs:** Analytical reports and visualizations supporting environmental health assessment-
 **[View Data Analysis Report](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf)**
 
 ---
@@ -173,9 +173,8 @@ Development of a surveillance dashboard integrating climate indicators and anima
 * The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis. 
 
 * This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies. 
+**Output** The dashboard supports rabies vaccination advocacy and climate sensitive disease surveillance. -**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
 
-**Output** The dashboard supports **rabies vaccination advocacy and climate sensitive disease surveillance.** 
-**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
 ----
 
 ### 6. GIS and Spatial Contributions
