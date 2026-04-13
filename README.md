@@ -36,7 +36,8 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 * Visualization of long-term air quality patterns
 * Discussion of environmental exposure and asthma burden
 * Interpretation of climate–air pollution interactions
-
+**Data:**
+	This study uses annual air quality and asthma morbidity data for Monroe County, New York. Air pollution measures, including AQI statistics and pollutant indicators (PM$_{2.5}$, ozone, CO, NO$_2$, PM$_{10}$), were obtained from the Centers for Disease Control and Prevention (CDC) National Environmental Public Health Tracking Network. Asthma hospitalization and emergency department visit rates (2000--2023) were sourced from the New York State Department of Health (NYSDOH) asthma surveillance reports. Additional asthma prevalence context was referenced from the CDC Behavioral Risk Factor Surveillance System (BRFSS) and CDC Vital Signs reports. These datasets were integrated at the annual level to support analysis of exposure-response relationships.
 **Outputs:** Analytical reports and visualizations supporting environmental health assessment-
 **[View Data Analysis Report](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf)**
 
@@ -173,15 +174,16 @@ Development of a surveillance dashboard integrating climate indicators and anima
 * The system enables dynamic filtering by year, animal type, and geographic indicators to support exploratory surveillance analysis. 
 
 * This integrated climate health dashboard provides decision support for rabies vaccination advocacy, vector and wildlife monitoring, and targeted public health communication strategies. 
+
 **Output** The dashboard supports rabies vaccination advocacy and climate sensitive disease surveillance. -**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Video/MC_Rabies_Climate%20Surveillance%20Dashboard.mp4)**
 
 ----
 
-### 6. GIS and Spatial Contributions
+### 6. GIS and Spatial Contributions**[View at Supplementary PDF-file](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/Supplementary.pdf)**
 
-**a. Community Resources Map:** Identifies food pantries, shelters, low-income clinics with addresses, contacts, and services.
+**a. Community Resources Map:** Identifies food pantries, shelters, low-income clinics with addresses, contacts, and services.**[View at ROC HEALTH DATA Tools](https://rochealthdata.org/map-room/?bbox=-8685876.52%2C5309543.65%2C-8593171.02%2C5354292.10&fs=1&l=%5B%7B%22id%22%3A%22arcgis-light-gray%22%2C%22v%22%3A1%2C%22lb%22%3A1%2C%22b%22%3A1%7D%2C%7B%22id%22%3A%22d5839%22%2C%22v%22%3A1%2C%22lb%22%3A1%7D%2C%7B%22id%22%3A%22r53%22%2C%22op%22%3A0.8%2C%22v%22%3A1%7D%2C%7B%22id%22%3A%22r59%22%2C%22v%22%3A1%7D%2C%7B%22id%22%3A%22r6%22%2C%22op%22%3A0.9%7D%2C%7B%22id%22%3A%22r8%22%2C%22op%22%3A0.4%2C%22v%22%3A1%7D%5D)**
 
-**b. Flood Risk Overlays:** Combines 1% and 0.2% floodplain boundaries with **Disadvantaged Community indicators** to support equity-focused climate planning.
+**b. Flood Risk Overlays:** Combines 1% and 0.2% floodplain boundaries with **Disadvantaged Community indicators** to support equity-focused climate planning.**[View at ROC HEALTH DATA Tools](https://rochealthdata.org/map-room/?bbox=-8726502.89%2C5296530.22%2C-8569097.74%2C5372508.85&fs=1&l=%5B%7B%22id%22%3A%22arcgis-light-gray%22%2C%22v%22%3A1%2C%22lb%22%3A1%2C%22b%22%3A1%7D%2C%7B%22id%22%3A%22d6266%22%2C%22v%22%3A1%2C%22lb%22%3A1%7D%2C%7B%22id%22%3A%22r53%22%2C%22op%22%3A0.8%2C%22v%22%3A1%7D%2C%7B%22id%22%3A%22r59%22%2C%22v%22%3A1%7D%2C%7B%22id%22%3A%22r6%22%2C%22op%22%3A0.9%7D%2C%7B%22id%22%3A%22r8%22%2C%22op%22%3A0.4%2C%22v%22%3A1%2C%22lb%22%3A1%7D%5D)**
 
 ---
 
