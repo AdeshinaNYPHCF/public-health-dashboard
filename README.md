@@ -35,9 +35,14 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 * Historical AQI trend analysis
 * Visualization of long-term air quality patterns
 * Discussion of environmental exposure and asthma burden
-* Interpretation of climate–air pollution interactions
+* Interpretation of climate–air pollution interactions.
+
+
+
 **Data:**
 	This study uses annual air quality and asthma morbidity data for Monroe County, New York. Air pollution measures, including AQI statistics and pollutant indicators (PM$_{2.5}$, ozone, CO, NO$_2$, PM$_{10}$), were obtained from the Centers for Disease Control and Prevention (CDC) National Environmental Public Health Tracking Network. Asthma hospitalization and emergency department visit rates (2000--2023) were sourced from the New York State Department of Health (NYSDOH) asthma surveillance reports. Additional asthma prevalence context was referenced from the CDC Behavioral Risk Factor Surveillance System (BRFSS) and CDC Vital Signs reports. These datasets were integrated at the annual level to support analysis of exposure-response relationships.
+
+
 **Outputs:** Analytical reports and visualizations supporting environmental health assessment-
 **[View Data Analysis Report](https://github.com/AdeshinaNYPHCF/public-health-dashboard/blob/main/climate-health-portfolio/Documents/AQI.pdf)**
 
