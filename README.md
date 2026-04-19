@@ -50,22 +50,25 @@ Long-term Air Quality Index (AQI) trend analysis from **1980 to 2025**, examinin
 
 ### 2. Climate Health Vulnerability Dashboard
 
-Dashboard project examining **climate health vulnerability across census tracts**, integrating environmental health vulnerability metrics,climate exposure indicators- outdoor mobility patterns, and socioeconomic indicators.
-
+Dashboard project examining **climate health vulnerability across census tracts**, It integrates environmental exposure, climate risk, health burden, mobility, housing, language, and socioeconomic indicators into a single tract-level analytical framework.
 **Objective:**
-Assess and rank climate- and mobility-related vulnerability across census tracts to identify spatial disparities and high-risk communities.
+Assess and rank climate- and mobility-related vulnerability across census tracts to identify spatial disparities and high-risk communities. Compare tracts with similar risk profiles to support spatially targeted planning and intervention.
 
 **Workflow:**
 
-1. Data cleaning and exploratory analysis (EDA) using heatmaps, correlation matrices, and pair plots
-2. Compute a composite Average Risk index (row means across selected indicators)
-3. Rank census tracts and identify top N most vulnerable communities
-4. Apply K-means clustering to group tracts with similar vulnerability profiles
-5. Generate interactive heatmaps, PCA cluster plots, and ranked tables in a Shiny dashboard
+1. Load and merge multiple integrated tract-level CSV files, standardize variable names, and convert character fields to numeric where possible.
+2. Screen indicators by removing variables with excessive missingness or zero variance, then retain only informative variables for analysis.
+3. Compute a composite Average Risk index using row means across the retained indicators.
+4. Rank census tracts and identify the top N most vulnerable communities.
+5. Standardize retained variables and apply PCA to reduce dimensionality before clustering.
+6. Apply K-means clustering to group tracts with similar vulnerability profiles.
+7. Generate interactive heatmaps, PCA cluster plots, and ranked tables in a Shiny dashboard.
 
 **Variables Evaluated:**
 
 ### Variable Classification for Environmental and Health Vulnerability Analysis
+
+Here it is in the same format:
 
 * **Geographic Identifiers:**  
 `Census_Tract`
@@ -77,24 +80,28 @@ Assess and rank climate- and mobility-related vulnerability across census tracts
 `CHD_adults`, `COPD_ED_Rate`
 
 * **Population Structure and Demographics:**  
-`Pop_Age0_4`, `Pop_Age65plus`, `Disabled`
+`Pop_Age0_4`, `Pop_Age65plus`, `Working_Age_18_64`, `Disabled`
 
 * **Socioeconomic Vulnerability:**  
-`Uninsured_Pop`, `Disadvantaged` *(Disadvantaged Community: Yes or No)*
+`Uninsured_Pop`, `Pop_Below_200_Poverty`, `Children_In_Poverty`, `Disadvantaged` *(Disadvantaged Community: Yes or No)*
 
 * **Mobility and Transportation Access:**  
-`workers_Pub_Transit`, `Workers_Walking_Biking`, `Workers_Traveling_Public_TP`
+`workers_Pub_Transit`, `Workers_Walking_Biking`, `Workers_Traveling_Public_TP`, `Workers_Traveling_CarAlone`
 
 * **Housing and Transportation Constraints:**  
-`Housing_No_Vehicles`
+`Housing_No_Vehicles`, `Overcrowded_Housing`
 
 * **Language and Social Barriers:**  
-`Pop_Limited_English Language`
+`Pop_Limited_English`
+
+* **Health and Equity Indicators:**  
+`Life_Expectancy_at_Birth`, `Black_Percent`, `Percent_Hispanic`, `White_NonHispanic_Percent`, `Gini_Index_Income_Inequality`
 
 **Methodology:** Scaled heatmaps, correlation matrices, vulnerability ranking via composite risk scores, K-means clustering.
 
 **Outputs:** Interactive vulnerability heatmaps, ranked tables, cluster plots, cluster summaries-
-**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard)**
+**[View Dashboard](https://github.com/AdeshinaNYPHCF/public-health-dashboard/climate-health-portfolio/Video/Climate Health Vulnerability Dashboard.mp4)**
+**[View CH Vulnerability Cluster Analysis Report](https://github.com/AdeshinaNYPHCF/public-health-dashboard)**
 
 **Public Health Impact:** Identifies geographic inequality, enabling targeted interventions, climate adaptation planning, and resource prioritization
 
